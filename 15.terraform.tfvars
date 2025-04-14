@@ -1,0 +1,11 @@
+aws_region           = "us-east-1"
+vpc_cidr             = "10.39.0.0/16"
+public_subnets_cidr  = ["10.39.1.0/24", "10.39.2.0/24", "10.39.3.0/24"]
+private_subnets_cidr = ["10.39.10.0/24", "10.39.20.0/24", "10.39.30.0/24"]
+azs                  = ["us-east-1a", "us-east-1b", "us-east-1c"]
+vpc_name             = "DSOB39"
+key_name             = "DevSecOpsB39"
+environment          = "dev"
+owner                = "B39"
+imagename            = "ami-00a929b66ed6e0de6"
+instance_type        = "t2.micro"
